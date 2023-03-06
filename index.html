@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async Await Try Catch Error</title>
+        <!-- bootstrap css -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+
+    
+        <h3 class="text-center mt-4 mb-3">Search Food <span class="text-info fw-bold">Async Await Try Catch Error-Message</span></h3>
+    <!-- meal search input field and button -->
+    <div class="input-group mb-3 w-50 mx-auto">
+        <input id="search-field" type="text" class="form-control" placeholder="please search your favorite food" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <button onclick="searchFood()" class="btn btn-outline-secondary" type="button" id="button-search">Search</button>
+      </div>
+<!-- error message text is here -->
+      <div id="error-message" class="text-danger text-center">
+        <h5>Something wrong is happened</h5>
+      </div>
+
+      <!-- display single meal detail -->
+      <div class="w-50 mx-auto"  id="meal-detail">
+        
+      </div>
+
+
+      <!-- meal search result display area -->
+      <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4 container mx-auto">
+        
+      </div>
+
+
+    
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- external js file -->
+    <script src="async-await.js"></script>
+</body>
+</html>
